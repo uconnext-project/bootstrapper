@@ -1,0 +1,11 @@
+[project]
+name = "uconnext-bootstrapper"
+version = "0.1.0"
+description = "uconnext Bootstrapper app for execution of unsigned payloads on uConnect 3C (RA3/4/VP2/3/4)"
+requires-python = ">=3.13"
+dependencies = [
+    "colorama>=0.4.6",
+    "functionfs==0.9.2",
+    "pycdlib>=1.14.0",
+    "winfcntl==1.1.9; sys_platform == 'win32'",
+]
